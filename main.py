@@ -27,7 +27,14 @@ def main():
     sorted_dict = sort_dict(character_dict)
     formated_sorted_dict = format_sorted_dict(sorted_dict)
 
-    print(f"============ BOOKBOT ============\nAnalyzing book found at {file_path}...\n----------- Word Count ----------\nFound {number_of_words} total words\n--------- Character Count -------\n{formated_sorted_dict}\n")
+    print(
+        f"============ BOOKBOT ============\n"
+        f"Analyzing book found at {file_path}...\n"
+        f"----------- Word Count ----------\n"
+        f"Found {number_of_words} total words\n"
+        f"--------- Character Count -------\n"
+        f"{formated_sorted_dict}\n"
+    )
 
     first_run = True
     while True:
