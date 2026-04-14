@@ -8,5 +8,5 @@ Es un Bot que genera y muestra estadisticas de letras y/o palabras en la termina
 
 Modo de uso:
 
-python3 main.py <path al texto que se quiere analizar>
+python3 main.py \<path al texto que se quiere analizar\>
 
